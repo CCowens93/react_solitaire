@@ -5,11 +5,11 @@ import twoclub from './PNG/twoclub.png';
 class Solitaire extends Component{
     render(){
         return(
-            <div class="gameboard">
-            <div class="container">
-                <div class="deck"></div>
+            <div className="gameboard">
+            <div className="container">
+                <div className="deck"></div>
                 
-                <div class="ace_stack">
+                <div className="ace_stack">
                     <div id="spade"></div>
                     <div id="diamond"></div>
                     <div id="club"></div>
@@ -17,7 +17,7 @@ class Solitaire extends Component{
                 </div>
             </div>
 
-                <div class="player_stack">
+                <div className="player_stack">
                     <div id="stack1"><img src={twoclub}></img></div>
                     <div id="stack2"><img src={twoclub}></img></div>
                     <div id="stack3"><img src={twoclub}></img></div>
