@@ -23,7 +23,7 @@
 }
 .player_stack{
   display: flex;
-  margin: 90px;
+  margin: auto;
 }
 
 #spade, #diamond, #club, #heart{
@@ -32,9 +32,15 @@
   height:225px;
   margin:10px 20px;
 }
-#stack1, #stack2, #stack3, #stack4, #stack5, #stack6, #stack7{
-  border-style: solid;
+
+img{
   width: 175px;
   height:225px;
   margin:10px 20px;
+}
+#stack1, #stack2, #stack3, #stack4, #stack5, #stack6, #stack7{
+  /* border-style: solid; */
+  width: 175px;
+  height:225px;
+  margin:10px 10px;
 }

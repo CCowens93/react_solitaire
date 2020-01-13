@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import twoclub from './PNG/twoclub.png';
 
 
 class Solitaire extends Component{
@@ -17,13 +18,13 @@ class Solitaire extends Component{
             </div>
 
                 <div class="player_stack">
-                    <div id="stack1"></div>
-                    <div id="stack2"></div>
-                    <div id="stack3"></div>
-                    <div id="stack4"></div>
-                    <div id="stack5"></div>
-                    <div id="stack6"></div>
-                    <div id="stack7"></div>
+                    <div id="stack1"><img src={twoclub}></img></div>
+                    <div id="stack2"><img src={twoclub}></img></div>
+                    <div id="stack3"><img src={twoclub}></img></div>
+                    <div id="stack4"><img src={twoclub}></img></div>
+                    <div id="stack5"><img src={twoclub}></img></div>
+                    <div id="stack6"><img src={twoclub}></img></div>
+                    <div id="stack7"><img src={twoclub}></img></div>
                 </div>
             
             </div>
